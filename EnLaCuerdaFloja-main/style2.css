@@ -1,0 +1,80 @@
+/*Selección de Jugadores*/
+@font-face {
+    font-family: Aubrey;
+    src: url(/fonts/Aubrey-Regular.ttf);
+}
+body {
+    background: #191F30;
+    background-image: url(/images/new-york.jpg) ;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 74px;
+    height: 74px;
+    padding: 60px 0 15px 0;
+}
+.titulo {
+    font-family: 'Aubrey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(255, 224, 63,1);
+    padding: 15px 0 0 0;
+}
+.subtitulo {
+    font-family: 'Aubrey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(249, 198, 54, 0.99);
+}
+.cont {
+    opacity: 0.9;
+}
+.btnAdd {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.liContainer {
+    background-color:rgba(0, 0, 0, 0.3);
+} 
+ul {
+    list-style: none;
+} 
+form {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    color: rgb(255, 255, 255);
+}
+.btn-play {
+    font-family: 'Aubrey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 73px;
+    color: #f8c544;
+    text-decoration: none;
+}
+.btn-back {
+    font-family: 'Aubrey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 73px;
+    color: #e8b840;
+    text-decoration: none;
+}
